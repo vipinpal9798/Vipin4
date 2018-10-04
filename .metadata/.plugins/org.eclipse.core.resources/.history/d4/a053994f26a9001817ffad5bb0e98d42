@@ -1,0 +1,31 @@
+package pack1;
+
+	
+
+
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.chrome.ChromeDriver;
+
+	public class Titletestgoogle {
+		public static void main(String[] args) 
+		{
+			System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+			WebDriver driver=new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("file:///C:/Users/Vipin/Desktop/SELENIUM/Element.html");
+		driver.findElement(By.tagName("a")).click();
+		String title=driver.getTitle();
+		if (title.equalsIgnoreCase("google"))
+		{
+			System.out.println("Test Pass");
+		}
+		else {
+			System.out.println("Test1 fail");
+		}
+		}
+	}
+
+
+
+

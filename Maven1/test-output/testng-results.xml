@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Total no. of Links = 165]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23526" started-at="2018-10-04T16:29:41Z" finished-at="2018-10-04T16:30:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23526" started-at="2018-10-04T16:29:41Z" finished-at="2018-10-04T16:30:05Z">
+      <class name="testScript.Test1">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testScript.Test1@3e6fa38a]" name="launch" is-config="true" duration-ms="6622" started-at="2018-10-04T16:29:41Z" finished-at="2018-10-04T16:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="FacebookTest()[pri:0, instance:testScript.Test1@3e6fa38a]" name="FacebookTest" duration-ms="15970" started-at="2018-10-04T16:29:48Z" finished-at="2018-10-04T16:30:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no. of Links = 165]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FacebookTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@3e6fa38a]" name="closeBrowser" is-config="true" duration-ms="878" started-at="2018-10-04T16:30:04Z" finished-at="2018-10-04T16:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
